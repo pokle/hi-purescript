@@ -11,6 +11,7 @@
 
 # Build & Run
 
+    bower install
     pulp build
     pulp test
     pulp run
