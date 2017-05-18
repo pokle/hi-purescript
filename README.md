@@ -1,14 +1,22 @@
 # Purescript Hello world
 
 
-# Commands
+# Installation of tools
 
     npm install -g purescript pulp bower
+
+# Initial code generation
+
+    pulp init
+
+# Build & Run
+
     pulp build
     pulp test
     pulp run
     node -e 'require("./output/Main").main()'
 
+# Optimisation
 Still working on getting Google Closure working:
 
     $ brew install closure-compiler
